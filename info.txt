@@ -1,0 +1,41 @@
+Controls:
+
+WSAD - camera movement on xy axis
+EQ - camera movement on z axis
+ZX - camera rotation
+Numpad +- - object selection
+Numpad 8456 - object movement xy axis
+123 - object rotation
+
+Parsing:
+
+CAMERA
+*position
+*direction
+*ambient light
+
+SPHERE
+*position
+*direction
+*color
+*radius
+
+PLANE
+*position
+*normal
+*color
+
+CYLINDER
+*position
+*axis
+*color
+*radius
+
+CONE
+*position
+*axis
+*color
+*angle
+
+LIGHT
+*position
